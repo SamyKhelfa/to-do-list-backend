@@ -29,7 +29,7 @@ async function main() {
     update: {},
     create: {
       email: 'john@gmail.com',
-      password: 'test456', // Ajoutez le password
+      password: 'xxx',
       tasks: {
         create: [
           {
