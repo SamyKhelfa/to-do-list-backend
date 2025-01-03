@@ -8,7 +8,7 @@ async function main() {
     update: {},
     create: {
       email: 'jean@gmail.com',
-      password: 'test123', // Ajoutez le password
+      password: 'test123',
       tasks: {
         create: [
           {
@@ -34,10 +34,6 @@ async function main() {
         create: [
           {
             content: 'Première tâche de John',
-            createdAt: new Date(),
-          },
-          {
-            content: 'Deuxième tâche de John',
             createdAt: new Date(),
           },
         ],
